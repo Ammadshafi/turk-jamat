@@ -1,0 +1,27 @@
+.main-carousel .owl-carousel .owl-nav button span{
+    background-color: #fb494f ; color: white;
+     font-size: 30px;
+     padding: 3px 12px;
+ 
+     
+ }
+.main-carousel .owl-carousel .owl-dots:hover .main-carousel .owl-carousel .owl-nav button span{
+    font-size: 30px;
+
+}
+
+.main-carousel .owl-carousel .owl-nav .owl-prev {
+    position: absolute;
+ top: 35%;
+ left: 2%;
+ }
+ .main-carousel .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+ top: 35%;
+ right: 2%;
+ }
+ .main-carousel .owl-carousel .owl-dots{
+     position: absolute;
+     top: 80%;
+     left: 40%;
+ }

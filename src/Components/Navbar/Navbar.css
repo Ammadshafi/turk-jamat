@@ -1,0 +1,34 @@
+.home-nav  .nav .nav-item a:hover{
+background-color: white !important;
+color: #C42429 !important;
+}
+@media screen and (max-width: 480px) {
+    .home-nav  .nav{
+        display: none;
+    }
+   .logo-h{
+       display: none;
+   }
+   .navbar .container .hh{
+    display: block;
+}
+.navbar .container .toggle-div{
+opacity: 1;
+}
+}
+.toggle-div{
+    position: absolute;
+   top: 130px;
+   left: 0%;
+   width: 100%;
+   z-index: 1000;
+   opacity: 0;
+
+}
+.navbar .hh{
+    display: none;
+}
+.home-nav  .nav .nav-item .active {
+    color:#C42429 !important;
+    background-color: white;
+}

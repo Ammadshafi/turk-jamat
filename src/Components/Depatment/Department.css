@@ -1,0 +1,26 @@
+.d-card{
+overflow: hidden;
+position: relative;
+height: 170px;
+transition: 2s;
+
+}
+.d-card img{
+    width: 100%;
+    height: 100%;
+}
+.d-card-text{
+    position: absolute;
+  
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center ;
+    color:white;
+ transform: translateY(200px);
+ transition: 0.5s;
+}
+.d-card:hover .d-card-text{
+
+    transform: translateY(0px);
+}

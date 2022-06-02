@@ -1,0 +1,71 @@
+span a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+
+.footer-right li {
+  font-size: 20px !important;
+  border-radius: 30%;
+  padding: 7px 13px;
+  margin-left: 20px;
+}
+.footer-right li:nth-child(1) {
+  color: white;
+  background-color: red;
+}
+
+.footer-right li:nth-child(2) {
+  color: white;
+  background-color: blue;
+}
+
+.footer-right li:nth-child(3) {
+  color: white;
+  background-color: rgb(52, 143, 213);
+}
+.footer-right li:nth-child(4) {
+  color: white;
+  background-color: pink;
+}
+.footer-right li:nth-child(5) {
+  color: white;
+  background-color: blue;
+}
+footer {
+  overflow: hidden;
+}
+/* hover effects */
+.footer-right li:nth-child(1):hover {
+  color: red !important;
+  background-color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+.footer-right li:nth-child(2):hover {
+  color: blue !important;
+  background-color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+.footer-right li:nth-child(3):hover {
+  color: rgb(52, 143, 213) !important;
+  background-color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+.footer-right li:nth-child(4):hover {
+  color: pink !important;
+  background-color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+.footer-right li:nth-child(5):hover {
+  color: blue !important;
+  background-color: white;
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
